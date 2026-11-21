@@ -1,0 +1,11 @@
+name: KoloFortuny
+version: 1.0
+main: pl.kolofortuny.KoloPlugin
+api-version: "1.21"
+softdepend: [777-Portfel]
+commands:
+  kolo:
+    description: Koło fortuny - panel administracyjny
+permissions:
+  kolo.admin:
+    default: op

@@ -1,0 +1,46 @@
+# Większość tych rzeczy ustawisz w grze: /kolo panel
+ustawienia:
+  czas-animacji: 8      # sekundy kręcenia
+  obroty: 3             # minimalna liczba pełnych obrotów
+  rozmiar: 4.5          # średnica koła w blokach (podstawka dochodzi pod spód)
+  idle: OBROT           # OBROT = koło cały czas powoli się obraca, GLOW = tylko miga podświetlenie przedmiotu przy wskaźniku, BRAK
+  idle-okres: 40        # (OBROT) ile sekund trwa pełny obrót
+  idle-miganie: 30      # (GLOW) co ile ticków podświetlenie włącza się/wyłącza
+  dzwiek: true
+  ogloszenie: true
+teksty:
+  nad-kolem: "&e&lKOŁO FORTUNY\n&7PPM z bonem: &a&lZAKRĘĆ &8| &7PPM + Shift: &6Dropy"
+  bon-nazwa: "&6&lBon na Koło Fortuny"
+  bon-opis:
+    - "&7Kliknij PPM na kole fortuny,"
+    - "&7aby je zakręcić!"
+  brak-bonu: "&cPotrzebujesz bonu, aby zakręcić kołem!"
+  kreci-sie: "&cKoło już się kręci, poczekaj chwilę!"
+  wygrana: "&6{gracz} &7wygrał &e{nagroda} &7na kole fortuny!"
+pan:
+  rozmiar: 1.15         # skala Pana Szczęściarza (1.0 = ok. 2.7 bloku wysokości)
+  obrot: 0              # 0 albo 180 - jeśli Pan stoi tyłem, zmień na 180
+  teksty:
+    - "Szczęście sprzyja odważnym!"
+    - "Ten bon aż się prosi, żeby go zakręcić!"
+    - "Koniczyna na szczęście? Mam ich cały cylinder!"
+    - "Dziś jest TWÓJ dzień. Czuję to w wąsach!"
+    - "Kręć kołem, a fortuna się uśmiechnie!"
+bon:
+  cena: 10.0            # cena bonu w VPLN (777-Portfel) - zmienisz w /kolo panel
+sklep:
+  tytul: "&5&lPan Szczęściarz &8- &6Bon"
+  nazwa: "&e&lBON DO KOŁA FORTUNY"
+  opis:
+    - ""
+    - "&8» &7BILET NA JEDEN OBRÓT &6KOŁA FORTUNY"
+    - "&8» &7KLIKNIJ &f&lPPM &7NA KOŁO, TRZYMAJĄC BON W DŁONI"
+    - ""
+    - "&8» &7CENA: &e{CENA} VPLN"
+    - "&8» &7TWOJE SALDO: &a{SALDO} VPLN"
+    - ""
+    - "&a▶ &aKLIKNIJ, ABY KUPIĆ BON"
+  zakup-ok: "&8» &aKupiłeś &eBON DO KOŁA FORTUNY &aza &2{cena} ᴠᴘʟɴ&a!"
+  brak-srodkow: "&8» &cNie masz wystarczająco VPLN! Cena bonu: &4{cena} VPLN&c."
+  brak-portfela: "&8» &cPlugin 777-Portfel nie jest zainstalowany!"
+  blad: "&8» &cNie udało się pobrać VPLN. Spróbuj ponownie."
